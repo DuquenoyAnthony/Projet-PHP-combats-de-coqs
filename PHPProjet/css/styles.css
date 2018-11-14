@@ -1,0 +1,63 @@
+body,html{
+    display: block;
+    width: 100%;
+    height: 100%;
+ 	background-repeat: no-repeat;
+ 	background-color: #d3d3d3;
+ 	font-family: 'Oxygen', sans-serif;
+    position: relative;
+}
+footer{
+    background-color: black;
+    color: #d3d3d3;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+#presentation{
+    display: table-cell;
+    position: relative;
+    width: 100%;
+    height: 
+}
+#presentation #presentationProjet{
+    float: left;
+}
+#presentation #backEnd{
+    float: right;
+}
+#presentation div{
+    padding: 2%;
+    text-align: justify;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 2%;
+    width: 30%;
+    border: 1px solid black;
+}
+#presentation div h3{
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.formInscription, .formConnexion{
+    display: block;
+    text-align: center;
+}
+/*#ajoutCoq{
+    display: none;
+}*/
+/*.active{
+    display: block;
+}*/
+#administrer h1, #ajoutCoq{
+    margin: auto;
+    text-align: center;
+}
+#coq{
+    display: inline-block;
+    width: 20%;
+    border: 1px solid black;
+    margin: auto;
+    margin: 2%;
+}
